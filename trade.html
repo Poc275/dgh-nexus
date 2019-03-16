@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a href="index.html"><img src="images/valkyrie-design-logo-v1.jpg" alt="company logo" id="logo"></a>
+                <a href="index.html"><img src="images/DGH-Nexus-Logo-Concept-v10.jpg" alt="company logo" id="logo"></a>
             </div>
             
             <div class="col-md-9 offset-md-1" id="valkyrie-work-carousel">
@@ -42,7 +42,7 @@
 
     <div class="container my-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" role="banner">
-            <a class="navbar-brand" href="#">Valkyrie Design</a>
+            <a class="navbar-brand" href="#">DGH Nexus</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
@@ -55,24 +55,21 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="our-services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Our Services
+                        <a class="nav-link dropdown-toggle" href="our-shops.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Shops
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="our-services.html#3d-modelling">3D Modelling</a>
-                            <a class="dropdown-item" href="our-services.html#3d-scanning">3D Scanning</a>
-                            <a class="dropdown-item" href="our-services.html#3d-printing">3D Printing</a>
-                            <a class="dropdown-item" href="our-services.html#design">Design</a>
-                            <a class="dropdown-item" href="our-services.html#simulation">Simulation &amp; Animation</a>
-                            <a class="dropdown-item" href="our-services.html#plans">Plans &amp; Drawings</a>
-                            <a class="dropdown-item" href="our-services.html#engineering">Engineering Design</a>
+                            <a class="dropdown-item" href="our-shops.html#coppice-side">Coppice Side Castings</a>
+                            <a class="dropdown-item" href="our-shops.html#raggers">Raggers</a>
+                            <a class="dropdown-item" href="our-shops.html#sartorial-bow">Sartorial Bow</a>
+                            <a class="dropdown-item" href="our-shops.html#temporal-flux">Temporal Flux</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="our-work.html">Our Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="order.html">Order 3D Printing</a>
+                        <a class="nav-link" href="order.html">Trade Login</a>
                     </li>
                 </ul>
             </div>
@@ -80,20 +77,23 @@
     </div>
 
     <div class="container my-5">
-        <div class="row my-2">
-            <div class="col">
-                <h2 class="text-center" id="order-prints">Order 3D Prints</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
-                    lacus. Nullam id nunc et dolor sodales ultricies. Duis in accumsan quam. Donec in lacinia ex, quis aliquet elit. Donec lacus urna, 
-                    vestibulum eu diam efficitur, pharetra suscipit ante. Duis ac hendrerit justo. Phasellus quis auctor dolor. Interdum et malesuada 
-                    fames ac ante ipsum primis in faucibus. Mauris mollis posuere ligula eu molestie. Vivamus vel mauris erat. Phasellus leo lacus, 
-                    euismod quis condimentum ut, congue sit amet massa. Vivamus aliquet lacus at orci ultricies, ut euismod nisi ultricies. Aliquam 
-                    maximus augue dui, vel viverra sem ullamcorper vel. Suspendisse nec odio vulputate, lacinia elit vel, hendrerit diam.</p>
-            </div>
-        </div>
+        <div class="row my-2 justify-content-center">
+            <h2 id="trade-login">Trade Login</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae elit id nunc lacinia auctor vitae sit amet 
+                lacus. Nullam id nunc et dolor sodales ultricies. Duis in accumsan quam. Donec in lacinia ex, quis aliquet elit. Donec lacus urna, 
+                vestibulum eu diam efficitur, pharetra suscipit ante. Duis ac hendrerit justo. Phasellus quis auctor dolor. Interdum et malesuada 
+                fames ac ante ipsum primis in faucibus. Mauris mollis posuere ligula eu molestie. Vivamus vel mauris erat. Phasellus leo lacus, 
+                euismod quis condimentum ut, congue sit amet massa. Vivamus aliquet lacus at orci ultricies, ut euismod nisi ultricies. Aliquam 
+                maximus augue dui, vel viverra sem ullamcorper vel. Suspendisse nec odio vulputate, lacinia elit vel, hendrerit diam.</p>
 
+            <a class="btn btn-primary btn-lg" href="http://dgh-nexus.co.uk/warehouse" role="button">Trade Login</a>
+        </div>
+    </div>
+
+    <div class="container my-5">
         <div class="row">
             <div class="col">
+                <h2>Trade Request</h2>
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-6">
@@ -108,31 +108,21 @@
 
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputMaterial">Material</label>
-                            <select class="form-control" id="inputMaterial">
-                                <option>ABS</option>
-                                <option>PLA</option>
-                                <option>Epoxy Resins</option>
-                                <option>Wax</option>
+                            <label for="inputCompany">Company Name</label>
+                            <input type="text" class="form-control" id="inputCompany" placeholder="Company Name" required>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputSubject">Subject</label>
+                            <select class="form-control" id="inputSubject">
+                                <option>New Trade Account Request</option>
+                                <option>Trade Login Issue</option>
+                                <option>Order New Designs</option>
+                                <option>Stock Issue</option>
                                 <option>Other</option>
                             </select>
-                            <small id="material-help" class="form-text text-muted">
+                            <small id="subject-help" class="form-text text-muted">
                                 If Other let us know in the Additional Details field.
-                            </small>
-                        </div>
-
-                        <div class="form-group col-md-6">
-                            <label for="inputNumber">Number Required</label>
-                            <input type="number" class="form-control" id="inputNumber" placeholder="1" min="1" required>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <input type="file" class="custom-file-input" id="inputModelFile" accept=".stl">
-                            <label class="custom-file-label" for="inputModelFile">Select 3D Model File</label>
-                            <small id="input-model-file-help" class="form-text text-muted">
-                                STL files only.
                             </small>
                         </div>
                     </div>
@@ -153,15 +143,12 @@
     <div class="container my-5" id="footer">
         <div class="row my-3 d-flex justify-content-between">
             <div class="col-sm-3">
-                <h6>Our Capability</h6>
+                <h6>Our Shops</h6>
                 <ul class="list-inline">
-                    <li><a href="#">3D Modelling</a></li>
-                    <li><a href="#">3D Scanning</a></li>
-                    <li><a href="#">3D Printing</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Simulation &amp; Animation</a></li>
-                    <li><a href="#">Plans &amp; Drawings</a></li>
-                    <li><a href="#">Engineering Design</a></li>
+                    <li><a href="#">Coppice Side Castings</a></li>
+                    <li><a href="#">Raggers</a></li>
+                    <li><a href="#">Sartorial Bow</a></li>
+                    <li><a href="#">Temporal Flux</a></li>
                 </ul>
             </div>
 
@@ -195,7 +182,7 @@
 
         <div class="row my-3" id="footer-social">
             <div class="col">
-                &copy; 2019 Valkyrie Design.
+                &copy; 2019 DGH Nexus.
             </div>
         </div>
     </div>
