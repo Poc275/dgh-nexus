@@ -1,0 +1,29 @@
+#logo {
+    max-height: 300px;
+}
+
+#valkyrie-work-carousel {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+#footer {
+    border-top: 1px solid #999;
+    font-size: smaller;
+}
+
+#footer ul {
+    color: #999;
+}
+
+#footer ul li {
+    display: block;
+}
+
+#footer ul li a {
+    color: #999;
+}
+
+.social-icons li {
+    display: inline!important;
+}
